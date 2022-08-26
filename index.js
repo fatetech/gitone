@@ -1,5 +1,5 @@
 
 const clickMe = document.querySelector('.click');
  clickMe.addEventListener("click", function(){
-   console.log("good Morning")
+   document.querySelector(".h1").innerHTML= "Good Morning Fate"
  })
